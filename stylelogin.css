@@ -1,0 +1,29 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(250, 248, 248);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "San Francisco";
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: #333;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }

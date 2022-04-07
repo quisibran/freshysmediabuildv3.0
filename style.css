@@ -1,0 +1,178 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(250, 248, 248);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "San Francisco";
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: #333;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+ div {
+  background-color: none;
+  top: 345px;
+  color: rgb(255, 254, 254);
+  padding: 40px;
+  text-align: center;
+  margin-top: 245px;
+  font-size:60px;
+  font-family: "San Francisco";
+  
+  
+  }
+  body {
+    background-image: url("640px-A_black_image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: rgb(0, 0, 0);
+}
+video{
+  height: 350px;
+  width: 490px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgb(0, 0, 0);
+  border-width: 2px;
+  margin-left: 325px;
+  margin-top: 245px;
+  background-color: black;
+
+  
+  }
+  p {
+    background-color: none;
+    top: 345px;
+    color: rgb(255, 254, 254);
+    padding: 40px;
+    text-align: center;
+    margin-top: 245px;
+    font-size:40px;
+    font-family: "San Francisco";
+    
+  }
+  img {
+    border-style: solid;
+    border-radius: 200px;
+    border-color: black; 
+    width: 250px;
+    position: relative;
+    
+  }
+  .bio-box {
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   border-color: rgb(0, 0, 0);
+   
+
+  }
+  q {
+    background-color: none;
+    top: 345px;
+    color: rgb(255, 254, 254);
+    padding: 40px;
+    text-align: center;
+    margin-top: 245px;
+    font-size:20px;
+    font-family: "San Francisco";
+  }
+  @font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  }
+  /* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+
+
